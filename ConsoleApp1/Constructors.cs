@@ -8,8 +8,7 @@ namespace ConsoleApp1
 {
     public class Constructors
     {
-        private int _args { get; set; } = 100;
-        private string race;
+        private string race { get; set; }
 
         public Constructors()
         {
@@ -18,7 +17,6 @@ namespace ConsoleApp1
 
         public Constructors(int args)
         {
-            _args = args;
             if (args > 100)
                 race = "orc";
             race = "human";

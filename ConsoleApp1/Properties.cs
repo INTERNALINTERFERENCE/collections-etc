@@ -9,7 +9,7 @@ namespace ConsoleApp1
     public class Properties
     {
         private string _field = null;
-        public string Field 
+        private string Field 
         {
             get 
             {
@@ -21,5 +21,7 @@ namespace ConsoleApp1
                 _field = value; 
             }
         }
+
+        private string AutoField { get; set; }
     }
 }

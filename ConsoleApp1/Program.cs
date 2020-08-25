@@ -5,7 +5,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Constructors constructors = new Constructors(200);
-        }
+            
+        }      
     }
 }
